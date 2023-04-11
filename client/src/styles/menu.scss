@@ -1,0 +1,19 @@
+.drawingList {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  overflow: scroll;
+
+  img {
+    height: 100%;
+    cursor: pointer;
+    max-width: 500px;
+  }
+
+  li {
+    padding: 1rem;
+    margin: 1vh;
+    max-height: 300px;
+    width: 70%;
+  }
+}

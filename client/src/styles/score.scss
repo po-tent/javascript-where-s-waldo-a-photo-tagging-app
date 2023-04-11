@@ -1,0 +1,53 @@
+.scoreCont {
+  top: 0;
+  left: 0;
+  position: absolute;
+  border: 2px solid greenyellow;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.scoreCard {
+  background-color: rgb(255, 105, 180);
+  height: 100%;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 3rem;
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  > * {
+    padding: 0.5rem;
+  }
+
+  .tableCont {
+    overflow-y: auto;
+    justify-content: center;
+    margin-bottom: 5rem;
+  }
+
+  td {
+    padding: 0.2rem 2rem;
+  }
+
+  thead {
+    font-size: 1.5rem;
+    border-bottom: 1px solid white;
+  }
+
+  button {
+    position: absolute;
+    bottom: 0.5rem;
+  }
+}

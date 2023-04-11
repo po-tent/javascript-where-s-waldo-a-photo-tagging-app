@@ -1,0 +1,17 @@
+{
+  "name": "waldo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:macla7/waldo.git",
+  "author": "Mitch <MitchelClark1997@outlook.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "16.11.0",
+    "yarn": "1.22.10"
+  },
+  "scripts": {
+    "build": "yarn --cwd client install && yarn --cwd client build",
+    "deploy": "cp -a client/build/. public/",
+    "heroku-postbuild": "yarn build && yarn deploy"
+  }
+}

@@ -1,0 +1,52 @@
+.gameCont {
+  padding: 1rem 0;
+}
+
+.home {
+  display: flex;
+  background-color: rgb(53, 88, 0);
+  border: 0;
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 1.3rem;
+  color: white;
+}
+
+.game {
+  display: grid;
+  grid-template-rows: auto 10fr;
+}
+
+.sidePanel {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  height: auto;
+}
+
+.drawingLi {
+  img {
+    height: 75%;
+    width: 100%;
+    border-radius: 5px;
+    border: 4px solid rgb(161, 161, 161);
+  }
+}
+
+.drawingCont {
+  position: relative;
+
+  img {
+    height: 75%;
+    width: 100%;
+    border-radius: 5px;
+    border: 4px solid rgb(161, 161, 161);
+  }
+}
+
+.circleFound {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 4px solid rgb(82, 255, 47);
+}
